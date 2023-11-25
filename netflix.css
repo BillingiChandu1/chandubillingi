@@ -1,0 +1,457 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+img {
+    width: 148px;
+    height: 40px;
+    position: relative;
+    z-index: 110;
+    opacity: 0.8;
+    background-color: black;
+
+}
+
+.sign {
+    background-color: red;
+    width: 76.9px;
+    height: 32px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding-left: 3px;
+    border: none;
+    padding-top: -5px;
+}
+
+option {
+    background-color: white;
+    color: blue;
+}
+
+select {
+    background-color: black;
+}
+
+#lan {
+    width: 126px;
+    height: 32px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 500;
+    padding-left: 22px;
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+.b {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/8eb1e781-3494-4aa4-9405-268ca6473e4c/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center center center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+    height: 73vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+body {
+    background-color: black;
+
+}
+
+.main .box {
+    height: 74vh;
+    width: 100%;
+    opacity: 2;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    padding-top: 20px;
+}
+
+button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-weight: 900;
+    z-index: 2;
+    flex-wrap: nowrap;
+    opacity: 1;
+    gap: 10px;
+    text-align: center;
+}
+
+.f1 {
+    font-size: 48px;
+}
+
+.box {
+    position: relative;
+    color: white;
+}
+
+.hero:first-child {
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.hero:nth-child() {
+    font-weight: 700;
+    font-size: 200px;
+    text-align: center;
+
+}
+
+.search {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 368px;
+    height: 56px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    opacity: 0.7;
+    position: relative;
+}
+
+.btn {
+    background-color: red;
+    width: 160px;
+    height: 56px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border: none;
+}
+
+.input1 {
+    padding: 5px;
+}
+
+.p {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 160px;
+}
+
+hr {
+    height: 8px;
+    background-color: rgb(46, 38, 38);
+    border: none;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 65vw;
+    margin: auto;
+    color: white;
+    margin-left: -100px;
+    column-gap: 15px;
+}
+
+.secimg {
+    position: relative;
+    margin-top: -170px;
+    z-index: 100;
+    width: 5px;
+}
+
+.pic {
+    margin-top: -30px;
+    width: 515px;
+    height: 388px;
+    position: absolute;
+    z-index: 10;
+}
+
+video {
+    position: absolute;
+    margin-left: 64px;
+    width: 378px;
+    height: 315px;
+    z-index: 120;
+    opacity: 0.8;
+}
+
+.p {
+    margin-top: 160px;
+}
+
+.p1 {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.p2 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.p3 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.bre {
+    margin-top: 121px;
+    height: 8px;
+    background-color: rgb(46, 38, 38);
+    border: none;
+}
+
+.break {
+    margin-top: 45px;
+    height: 8px;
+    background-color: rgb(46, 38, 38);
+    border: none;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -20px;
+    column-gap: 2px;
+}
+
+.mil {
+    width: 474px;
+    height: 355px;
+    margin-top: 30px;
+}
+
+.d {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-left: 36px;
+    flex-wrap: wrap;
+}
+
+.d1 {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.d2 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.d3 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.d4 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.f {
+    text-align: center;
+    margin-left: 300px;
+}
+
+.mill {
+    width: 474px;
+    height: 355px;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    margin: auto;
+}
+
+.faq {
+    padding: 20px;
+    gap: 1px;
+}
+
+.faqbox {
+    display: flex;
+    background-color: rgb(44, 41, 41);
+    padding: 34px;
+    width: 1042px;
+    height: 15px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 25px;
+    color: white;
+}
+
+.l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 34px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.pa {
+    font-size: 20px;
+}
+
+.brek {
+    margin-top: 25px;
+    height: 8px;
+    background-color: rgb(46, 38, 38);
+    border: none;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    padding: 15px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
+.foot {
+    padding-top: 78px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 300px;
+    column-gap: 15px;
+}
+
+.q {
+    padding-left: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
+@media only screen and (max-width:600px) {
+    .f1 {
+        font-size: 30px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .input1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 62px
+    }
+
+    .nav2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .first{
+        display: flex;
+        flex-direction:column-reverse   ;
+        justify-content: center;
+        align-items: center;
+        margin-top: 212px;
+    }
+    .p{
+        margin-top: 355px;
+        margin-left: 152px;
+    }
+    .secimg{
+        margin-left: -140px;
+    }
+    .second{
+        display: flex;
+        flex-direction:column-reverse   ;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .faqbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px;
+        width: 76vw;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .items {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding: 41px;
+        margin: -12px;
+    }
+    
+}
